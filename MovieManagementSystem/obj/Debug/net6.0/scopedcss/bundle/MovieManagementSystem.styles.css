@@ -1,0 +1,98 @@
+/* _content/MovieManagementSystem/MovieManagementSystem/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-6cj9t3l3sn] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-6cj9t3l3sn] {
+  color: #0077cc;
+}
+
+.btn-primary[b-6cj9t3l3sn] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-6cj9t3l3sn], .nav-pills .show > .nav-link[b-6cj9t3l3sn] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-6cj9t3l3sn] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-6cj9t3l3sn] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-6cj9t3l3sn] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-6cj9t3l3sn] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-6cj9t3l3sn] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/MovieManagementSystem/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-zn9f0ywiy9] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-zn9f0ywiy9] {
+  color: #0077cc;
+}
+
+.btn-primary[b-zn9f0ywiy9] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-zn9f0ywiy9], .nav-pills .show > .nav-link[b-zn9f0ywiy9] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-zn9f0ywiy9] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-zn9f0ywiy9] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-zn9f0ywiy9] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-zn9f0ywiy9] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-zn9f0ywiy9] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

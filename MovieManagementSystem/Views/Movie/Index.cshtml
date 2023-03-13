@@ -1,0 +1,48 @@
+﻿@model System.Data.DataTable
+
+<div class="main">
+    <div class="top_banner">
+        <div class="content_title">
+            <h1 class="title">
+                Movies HUB
+            </h1>
+        </div>
+    </div>
+
+
+    @{
+        int i = 101;
+
+            <div class="">
+
+        @for (int j = 0; j < Model.Rows.Count; )
+        {
+                <div class="row mt-5">
+                    <div class="col ">
+                        <button asp-controller="Movie" asp-action="Details">
+                            <a href="@Url.Action("Details","Movie",new {@id = Model.Rows[j++][0] } )" target="_blank">
+                                <img class="picture_wrapper" src="~/Images/@(i++)_.jpg" width="300" height="400" />
+                            </a>
+                        </button>
+                    </div>
+                    <div class="col ">
+                        <a href="@Url.Action("Details","Movie",new {@id = Model.Rows[j++][0] } )" target="_blank">
+                            <img class="picture_wrapper" src="~/Images/@(i++)_.jpg" width="300" height="400" />
+                        </a>
+
+                    </div>
+                    <div class="col ">
+                        <a href="@Url.Action("Details","Movie",new {@id = Model.Rows[j++][0] } )" target="_blank">
+
+                            <img class="picture_wrapper" src="~/Images/@(i++)_.jpg" width="300" height="400" />
+                        </a>
+
+                    </div>
+                </div>
+        }
+            </div>
+        
+
+    }
+
+</div>
