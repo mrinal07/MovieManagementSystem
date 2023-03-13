@@ -1,0 +1,62 @@
+﻿@model MovieManagementSystem.Models.MovieModel
+
+
+
+<div class="row">
+
+        <form asp-action="Edit">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            @Html.HiddenFor( model => model.MovieId  );
+
+            <div class="main">
+                <div class="top_banner">
+                    <div class="content_title">
+                        <h1 class="title">
+                            Movies HUB
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="">
+
+                    <div class="row mt-5">
+                        <div class="col-4 ">
+                           
+                                <img class="picture_wrapper" src="~/Images/@(@Model.MovieId)_.jpg" width="300" height="400" />
+                           
+                            <div style="font-size: 20px; margin-top:20px;">
+                            <a href="@Url.Action("Index","Movie")" style="text-decoration:none;color:black; padding-left: 100px;">
+                                <- Home Page
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="col-8">
+                        <h2 style="    font-family: fantasy;font-size: 40px;">
+                            @Model.Title
+                        </h2>
+                            <p >
+                            <span>Language:</span> @Model.Language<br />
+                            <span>Genre:</span> @Model.Genre <br />
+                            <span>ReleaseDate:</span> @Model.ReleaseDate <br />
+                            <span>Description:</span> @Model.Description
+
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+        </form>
+   
+</div>
+
+

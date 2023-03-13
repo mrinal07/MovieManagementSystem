@@ -1,0 +1,48 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.picture_wrapper{
+    border-radius: 20px;
+    
+    box-shadow: 10px 8px 15px 1px #aaaaaa;
+    transition: box-shadow 0.5s;
+}
+button {
+    background-color:transparent;
+    border:none;
+}
+
+.picture_wrapper:hover {
+    cursor:pointer;
+    box-shadow: 10px 8px 5px 8px #aaaaaa;
+}
+
+span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 22px;
+}
+
+h1{
+    font-family:Verdana;
+    font-weight:800;
+}
